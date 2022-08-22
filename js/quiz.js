@@ -103,8 +103,8 @@ let questions = [ //each question will be an object
         answer: 2
     },
     {
-        question: "Wich option would be the worse suited for someone that has a diary/milk allergy?",
-        choice0: "Soy milk",
+        question: "Which option would be the worse suited for someone that has a diary/milk allergy?",
+        choice0: "Soya milk",
         choice1: "Lactose free milk",
         choice2: "Oat milk",
         choice3: "All the above",
@@ -151,7 +151,7 @@ let questions = [ //each question will be an object
         answer: 3
     },
     {
-        question: "soya is a staple ingredient in oriental food. Often found in bean curd, edamame beans, miso paste, textured soya protein, soya flour or tofu. It can also be found in:",
+        question: "Soya is a staple ingredient in oriental food. Often found in bean curd, edamame beans, miso paste, textured soya protein, soya flour or tofu. It can also be found in:",
         choice0: "Ice cream",
         choice1: "Meat products",
         choice2: "Sauces and vegetarian products",
