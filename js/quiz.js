@@ -193,7 +193,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS){
         localStorage.setItem('mostRecentScore', score); //to display final score in end page
         //go to end page:
-        window.location.href("end.html");
+        return window.location.assign("end.html");
     }
 
     //to display question counter ex. 1/20:
