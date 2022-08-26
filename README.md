@@ -18,7 +18,8 @@ rgb(255, 255, 255), rgb(250, 229, 201), rgb(0,0,0)
 
 ## User Stories
 
-- []()
+User stories can be found in the document bellow
+- [testing.pdf](https://github.com/Susafp/Allergens-Quiz-Milestone-two/blob/1209a837be8617d10de4f88317cf6e5bb258baa7/testing-documents/testing.pdf)
 
 ## Wireframes
 
