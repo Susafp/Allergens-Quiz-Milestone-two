@@ -16,17 +16,17 @@ let availableQuestions = []; //array of available questions, so they appear rand
 let questions = [ //each question will be an object
     {
         question: "What is a Food allergy?",
-        choice0: "When the immune system’s “memory” registers the food as a threat and reacts inappropriately to it", 
-        choice1: "The result of consuming food that was not fully cooked",
-        choice2: "A person reaction to food that tastes bad",
-        choice3: "Caused by food contaminated with bacteria",
+        choice0: "When the immune system’s “memory” registers the food as a threat and reacts inappropriately to it.", 
+        choice1: "The result of consuming food that was not fully cooked.",
+        choice2: "A person reaction to food that tastes bad.",
+        choice3: "Caused by food contaminated with bacteria.",
         answer: 0 
     },
     {
         question: "Which option is NOT true?",
         choice0: "Food allergy symptoms can develop slowly, worsening over days to weeks", 
         choice1: "Usually food poisoning is not serious and lasts 24-48 hours",
-        choice2: "Food allergy is the same as Food poisoning",
+        choice2: "Food allergy is the same as food poisoning",
         choice3: "Food allergy symptoms can develop rapidly, within 30 minutes",
         answer: 2 
     },
@@ -40,7 +40,7 @@ let questions = [ //each question will be an object
     },
     {
         question: "Which one of the fallowing options are groups of allergens?",
-        choice0: "Milk, Eggs, Celery, Gluten and nuts",
+        choice0: "Milk, Eggs, Celery, Gluten and Nuts",
         choice1: "Molluscs, Crusttaceans an Fish and Sulphur Dioxide/ Sulphites",
         choice2: "Peanuts, Soya, Sesame seeds, Lupin, and Mustard",
         choice3: "All the above",
@@ -48,8 +48,8 @@ let questions = [ //each question will be an object
     },
     {
         question: "Which one of the fallowing options is wrong?",
-        choice0: "Peanuts are a legume",
-        choice1: "Peanuts are nuts",
+        choice0: "Peanuts are a Legume",
+        choice1: "Peanuts are Nuts",
         choice2: "Peanuts are used as an ingredient in biscuits, cakes, curries, desserts, sauces",
         choice3: "Peanuts are also called groundnuts because they grow underground",
         answer: 1
@@ -65,9 +65,9 @@ let questions = [ //each question will be an object
     {
         question: "You can find celery in celery salt, salads, some meat products, soups and stock cubes. It is advisable for a celeriac to avoide:",
         choice0: "White wine", 
-        choice1: "Ready salted peanuts",
-        choice2: "Egg and avocado toast",
-        choice3: "Bloody Mary cocktail",
+        choice1: "Ready Salted peanuts",
+        choice2: "Egg and Avocado toast",
+        choice3: "Bloody Mary Cocktail",
         answer: 3
     },
     {
@@ -128,10 +128,10 @@ let questions = [ //each question will be an object
     },
     {
         question: "When ingested, Cashewnuts can cause difficulty breathing, headaches, swollen eyes and throat, stomach pain, and diarrhea. Their plant family, Anacardiaceae, also include:",
-        choice0: "Pistachio and Pink peppercorn",
+        choice0: "Pistachio and Pink Peppercorn",
         choice1: "Brazil nuts and Macadamia",
         choice2: "Peanuts and Pinenuts",
-        choice3: "Chestnuts and Hazel nuts",
+        choice3: "Chestnuts and Hazel Nuts",
         answer: 0
     },
     {
@@ -144,10 +144,10 @@ let questions = [ //each question will be an object
     },
     {
         question: "Natasha's Law, come into force in 2021, after a girl named Natasha suffered an anaphylactic reaction to hidden sesame seeds, baked into the dough of the baguette. This caused her death later that day. Under this law, what are businesses required to do?",
-        choice0: "Label all frozen foods on the premises with a full list of ingredients",
-        choice1: "Label certain foods that are prepared and pre-packaged by suppliers with further information",
-        choice2: "Label all fresh dairy products that they sell with a full list of ingredients",
-        choice3: "Label certain foods that they prepare and package on the premises with a full list of ingredients",
+        choice0: "Label all frozen foods on the premises with a full list of ingredients.",
+        choice1: "Label certain foods that are prepared and pre-packaged by suppliers with further information.",
+        choice2: "Label all fresh dairy products that they sell with a full list of ingredients.",
+        choice3: "Label certain foods that they prepare and package on the premises with a full list of ingredients.",
         answer: 3
     },
     {
@@ -160,9 +160,9 @@ let questions = [ //each question will be an object
     },
     {
         question: "Sulphites can cause some people to suffer an allergy reaction. What are Sulphites used for?",
-        choice0: "Flavor enhancer and Perserve freshness",
+        choice0: "Flavour enhancer and Perserve freshness",
         choice1: "Perserve freshness and Growth hormone",
-        choice2: "Colour enhancer and Flavor enhancer",
+        choice2: "Colour enhancer and Flavour enhancer",
         choice3: "All the above",
         answer: 0
     },
