@@ -110,7 +110,7 @@ I have implemented JavaScript for the Quiz functionallity and the final score di
 
 I used my user stories and documented each of the steps that each user would need to accomplish what they have stated. Below is the link to the document that contains this information:
 
-- [Testing User Stories]()
+- [Testing User Stories](https://github.com/Susafp/Allergens-Quiz-Milestone-two/blob/42e11a724e35d84a58eab69a9a16b1132d132ed1/testing-documents/testing.pdf)
 
 ### Responsive Testing
 
@@ -132,6 +132,11 @@ To test my whole project, I went through each page and tested it feature by feat
 - **Hover effect on *Quiz* page** - When on small screen devices, the hover effect set for the ".choice-container" was misbehaving. The shadowing of the previous clicked choice was still somehow visible even after being populated with the next options. This could affect or wrongly influence the users on their next choice of answer.
 This problem was fixed by adding a @media screen to disable the box-shadow hover effect for screens with a width smaller than 575px.
 - **404 error returned instead of *End* page** - After deployment to GitHub, instead of rendering the 'end.html' page a 404 error was coming up. As after several attempts I still did not find a way to fix this I asked for Mentor assistance. Scott Nnaghor helped me find and fix the problem; a semi-column was missing in the JavaScript code to return end.html when reaching the end of all available questions.
+- **unexpected 'const' *quiz.js*** - When testing JavaScript code
+with Code Beautyfy JavaScript Validator tool, it accused e errors:
+*Unexpected 'const', const question = document.getElementById('question');*, and
+*Stopping. (0% scanned)*
+Did not find the solution for this errors, maybe in the future, with more experience I will.
 
 ## Deployment
 
