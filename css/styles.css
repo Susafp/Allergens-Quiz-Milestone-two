@@ -214,13 +214,3 @@ footer{
 .fa-brands:hover{
     font-size: 22px;
 }
-
-
-/*@supports(text-rendering: auto){
-    .fa, .fa-brands, .fa-duotone, .fa-light, 
-    .fa-regular, .fa-solid, .fa-thin, .fab, 
-    .fad, .fal, .far, .fas, .fat {
-        text-rendering: auto;
-    }
-} */
-/* to be supported by IE */

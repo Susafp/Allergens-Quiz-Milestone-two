@@ -15,6 +15,7 @@
 
 #hud{
     display: flex;
+    -ms-flex-direction: row;
     flex-direction: row;
     width: 100%;
 }

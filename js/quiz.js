@@ -5,13 +5,12 @@ const questionCounterText = document.getElementById('questionCounter');
 const scoreText = document.getElementById('score');
 const progressText = document.getElementById('progressText');
 const progressBarFull = document.getElementById('progressBarFull');
-//const loader = document.getElementById('loader');
 const quiz = document.getElementById('quiz');
 
 let currentQuestion = {}; //object
 let acceptingAnswers = false; //to create a delay to allow time to load
 let score = 0;
-let questionCounter = 0; //what question I am on - im not using this
+let questionCounter = 0; //what question I am on 
 let availableQuestions = []; //array of available questions, so they appear randomly
 let questions = [ //each question will be an object
     {
@@ -242,7 +241,7 @@ choices.forEach(choice => {
         
         //calling incrementScore function:
         if (classToApply === "correct"){   
-            incrementScore(CORRECT_BONUS); //10 points for each correct answer
+            incrementScore(CORRECT_BONUS); //5 points for each correct answer
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
